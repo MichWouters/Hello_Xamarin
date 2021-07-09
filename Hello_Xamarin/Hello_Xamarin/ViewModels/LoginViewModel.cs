@@ -10,6 +10,8 @@ namespace Hello_Xamarin.ViewModels
     {
         public Command LoginCommand { get; }
 
+        public string Name { get; set; }
+
         public LoginViewModel()
         {
             LoginCommand = new Command(OnLoginClicked);
